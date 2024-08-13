@@ -1,42 +1,133 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
 
 body {
+    margin: 0;
     font-family: "Inter", sans-serif;
-    background: rgba(17, 17, 17, 1);
+    font-family: "Grey Qo", cursive;
+    /* background: rgba(17, 17, 17, 1); */
+}
+
+/* nav bar section style start here  */
+.nav-container {
+    width: 1250px;
+    height: 46px;
+    /* border: 2px solid plum; */
+    margin: 0 auto;
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+    /* line-height: 120%; */
+    /* letter-spacing: 0%; */
+    text-align: left;
+}
+
+.nav-manue {
+    display: flex;
+    gap: 2.9rem;
+    /* color: rgb(255, 255, 255); */
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#home {
+    width: 92px;
+    height: 38px;
+    padding: 8px 20px 8px 20px;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    font-weight: 600;
+}
+
+/* banner section style start here  */
+.banner-container {
+    width: 1440px;
+    /* height: 1015px; */
+    margin: 0 auto;
+    margin-top: 6rem;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20rem;
+}
+
+.banner-info h1 {
+    /* color: rgb(255, 255, 255); */
+    font-family: Inter;
+    font-size: 78px;
+    font-weight: 900;
+    /* line-height: 120%; */
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#shape {
+    font-family: Grey Qo;
+    font-weight: 900;
+
+}
+
+.banner-info p {
+    /* color: rgba(255, 255, 255, 0.5); */
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.btn {
+    width: 224px;
+    height: 54px;
+    margin-top: 1.75rem;
+    margin-right: 1rem;
+    padding: 16px 40px 16px 40px;
+    border: none;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+}
+
+.backdrop-1 {
+    width: 180px;
+    position: absolute;
+    right: 600px;
+    bottom: 180px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
 
 
-    /* nav bar style here  */
-    .nav-container {
-        width: 1260px;
-        height: 46px;
-        margin: 0 auto;
-        margin-top: 3.5rem;
-    }
+}
 
-    .nav-bar {
-        display: flex;
-        justify-content: space-between;
-    }
+.backdrop-2 {
+    width: 200px;
+    position: absolute;
+    right: 250px;
+    bottom: 500px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
 
-    .nav-title{
-        color: rgb(230, 83, 60);
-        font-size: 36px;
-        font-weight: 800;
-    }
+}
 
-    .nav-input {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 2.9rem;
-        color: rgb(255, 255, 255);
-        font-size: 18px;
-        font-weight: 400;
-
-    }
-
-    #home {
-        border-radius: 46px;
-        background: rgb(230, 83, 60);
-        padding: 8px 20px 8px 20px;
-    }
+/* .banner-image {
+    width: 349px;
+    height: 580px;
+    border: 2px solid rebeccapurple;
+} */
