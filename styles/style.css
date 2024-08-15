@@ -398,6 +398,7 @@ body {
 
 .table {
     border-collapse: collapse;
+    margin-top: 4rem;
 }
 
 .table th,
@@ -492,9 +493,8 @@ input {
     gap: 1.25rem;
     padding: 16px;
     border-radius: 18px;
-    background-color:rgb(34, 34, 34);
-    margin-top: 3.5rem
-    ;
+    background-color: rgb(34, 34, 34);
+    margin-top: 3.5rem;
 }
 
 .trainer-card {
@@ -519,6 +519,78 @@ input {
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
 }
+
+/* footer section style start here  */
+.footer-container {
+    width: 1250px;
+    margin: 0 auto;
+    margin-top: 5.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-info h1 {
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 800;
+    text-align: left;
+    /* margin-bottom: 30px; */
+}
+
+.footer-info p {
+    /* color: rgba(255, 255, 255, 0.5); */
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+
+.footer-list h4 {
+    /* color: rgb(255, 255, 255); */
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 1.50rem;
+}
+
+.footer-list li {
+    /* color: rgba(255, 255, 255, 0.5); */
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    list-style-type: none;
+    margin-bottom: .5rem;
+}
+
+hr {
+    width: 1250px;
+    /* border: 2px solid rgba(255, 255, 255, 0.1); */
+}
+
+#copyright {
+    text-align: center;
+    /* color: rgba(255, 255, 255, 0.5); */
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin: 1.5rem;
+
+}
+
 
 /* responsive section start here  */
 
