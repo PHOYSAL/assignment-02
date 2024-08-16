@@ -10,13 +10,14 @@ body {
 
 /* nav bar section style start here  */
 .nav-container {
-    width: 1250px;
+    width: 90%;
     height: 46px;
     margin: 0 auto;
     margin-top: 3.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 16px;
 }
 
 .nav-title {
@@ -52,7 +53,7 @@ body {
 
 /* banner section style start here  */
 .banner-container {
-    width: 1440px;
+    width: 80%;
     margin: 0 auto;
     margin-top: 6rem;
     display: grid;
@@ -122,6 +123,7 @@ body {
     position: absolute;
     right: 300px;
     bottom: 500px;
+    margin-top: 100px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
@@ -160,7 +162,7 @@ body {
 
 /* habit section style start here  */
 .habit-container {
-    width: 1044px;
+    width: 80%;
     height: 552px;
     margin: 0 auto;
     margin-top: 6.25rem;
@@ -217,7 +219,7 @@ body {
 
 /* run section style start here  */
 .run-container {
-    width: 1060px;
+    width: 60%;
     margin: 0 auto;
     padding: 40px;
     display: grid;
@@ -252,7 +254,7 @@ body {
 
 /* training section style start here  */
 .training-container {
-    width: 1250px;
+    width: 75%;
     margin: 0 auto;
     margin-top: 6.25rem;
 }
@@ -314,7 +316,7 @@ body {
 
 /* calculator section style start here  */
 .calculator-container {
-    width: 671px;
+    width: 50%;
     margin: 0 auto;
     margin-top: 4.75rem;
 }
@@ -324,7 +326,7 @@ body {
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
-    text-align: left;
+    text-align: center;
 }
 
 .calculator-container p {
@@ -332,13 +334,13 @@ body {
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
-    text-align: left;
+    text-align: center;
 }
 
 /* chart section style start here  */
 
 .chart-container {
-    width: 1250px;
+    width: 75%;
     margin: 0 auto;
     margin-top: 5.5rem;
     display: grid;
@@ -416,7 +418,7 @@ input {
 
 /* team section style start here  */
 .team-container {
-    width: 1250px;
+    width: 75%;
     margin: 0 auto;
     margin-top: 5.5rem;
 }
@@ -482,7 +484,7 @@ input {
 
 /* footer section style start here  */
 .footer-container {
-    width: 1250px;
+    width: 75%;
     margin: 0 auto;
     margin-top: 5.5rem;
     display: grid;
@@ -528,7 +530,7 @@ input {
 }
 
 hr {
-    width: 1250px;
+    width: 75%;
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -643,6 +645,7 @@ hr {
 
    .training-container{
     display: none;
+    grid-template-columns: 1fr;
    }
    .calculator-container{
     display: none;
