@@ -4,15 +4,14 @@
 body {
     margin: 0;
     font-family: "Inter", sans-serif;
-    /* font-family: "Grey Qo", cursive; */
-    /* background: rgba(17, 17, 17, 1); */
+    font-family: "Grey Qo", cursive; 
+     background: rgb(26, 25, 25);
 }
 
 /* nav bar section style start here  */
 .nav-container {
     width: 1250px;
     height: 46px;
-    /* border: 2px solid plum; */
     margin: 0 auto;
     margin-top: 3.5rem;
     display: flex;
@@ -25,20 +24,16 @@ body {
     font-family: Inter;
     font-size: 36px;
     font-weight: 800;
-    /* line-height: 120%; */
-    /* letter-spacing: 0%; */
     text-align: left;
 }
 
 .nav-menu {
     display: flex;
     gap: 2.9rem;
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
-    line-height: 120%;
-    letter-spacing: 0%;
     text-align: left;
 }
 
@@ -58,22 +53,18 @@ body {
 /* banner section style start here  */
 .banner-container {
     width: 1440px;
-    /* height: 1015px; */
     margin: 0 auto;
     margin-top: 6rem;
-    /* border: 2px solid green;  */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20rem;
 }
 
 .banner-info h1 {
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 78px;
     font-weight: 900;
-    /* line-height: 120%; */
-    letter-spacing: 0%;
     text-align: left;
 }
 
@@ -84,7 +75,7 @@ body {
 }
 
 .banner-info p {
-    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
@@ -129,7 +120,7 @@ body {
 .backdrop-2 {
     width: 200px;
     position: absolute;
-    right: 250px;
+    right: 300px;
     bottom: 500px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -173,23 +164,20 @@ body {
     height: 552px;
     margin: 0 auto;
     margin-top: 6.25rem;
-    /* border: 2px solid royalblue; */
 }
 
 .habit-title h2 {
     text-align: center;
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
-    line-height: 120%;
-    letter-spacing: 0%;
     margin: 14px 0px;
 }
 
 .habit-title p {
     text-align: center;
-    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
@@ -211,16 +199,14 @@ body {
 
 .habit-image h5 {
     text-align: center;
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 18px;
     font-weight: 600;
-    line-height: 120%;
-    letter-spacing: 0%;
 }
 
 .habit-image p {
-    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
@@ -232,7 +218,6 @@ body {
 /* run section style start here  */
 .run-container {
     width: 1060px;
-    /* border: 2px solid hotpink; */
     margin: 0 auto;
     padding: 40px;
     display: grid;
@@ -247,8 +232,6 @@ body {
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
-    line-height: 120%;
-    letter-spacing: 0%;
     text-align: left;
 }
 
@@ -257,8 +240,6 @@ body {
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.3px;
     text-align: left;
 }
 
@@ -272,28 +253,23 @@ body {
 /* training section style start here  */
 .training-container {
     width: 1250px;
-    /* border: 2px solid cornflowerblue; */
     margin: 0 auto;
     margin-top: 6.25rem;
 }
 
 .training-info h2 {
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
-    line-height: 120%;
-    letter-spacing: 0%;
     text-align: left;
 }
 
 .training-info p {
-    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.3px;
     text-align: left;
 }
 
@@ -304,8 +280,7 @@ body {
 .training-card img {
     width: 100%;
     height: 260px;
-    filter: brightness(50%);
-    /* display: inline-block; */
+    filter: brightness(80%);
 
 
 }
@@ -342,26 +317,21 @@ body {
     width: 671px;
     margin: 0 auto;
     margin-top: 4.75rem;
-    /* border: 2px solid orchid; */
 }
 
 .calculator-container h2 {
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
-    line-height: 120%;
-    letter-spacing: 0%;
     text-align: left;
 }
 
 .calculator-container p {
-    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.3px;
     text-align: left;
 }
 
@@ -371,28 +341,23 @@ body {
     width: 1250px;
     margin: 0 auto;
     margin-top: 5.5rem;
-    /* border: 2px solid navy; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
 .chart-container h3 {
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 28px;
     font-weight: 600;
-    line-height: 120%;
-    letter-spacing: 0%;
     text-align: left;
 }
 
 .chart-container p {
-    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.3px;
     text-align: left;
 }
 
@@ -404,28 +369,24 @@ body {
 .table th,
 td {
     width: 200px;
-    border: 1px solid black;
+    border: 1px solid rgba(255, 255, 255, 0.1);
     text-align: left;
     padding: 0.625rem;
 }
 
 .table th {
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 16px;
     font-weight: 500;
-    line-height: 120%;
-    letter-spacing: 0%;
     text-align: left;
 }
 
 .table td {
-    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
-    line-height: 120%;
-    letter-spacing: 0%;
     text-align: left;
 }
 
@@ -436,18 +397,21 @@ td {
 input {
     width: 282.5px;
     height: 48px;
-
+    border-radius: 5px;
+    border: none;
 }
 
 .select select {
     width: 290px;
-    height: 54px;
-    ;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
 }
-
 .select-factor select {
     width: 585px;
     height: 45px;
+    border: none;
+    border-radius: 5px;
 }
 
 /* team section style start here  */
@@ -455,7 +419,6 @@ input {
     width: 1250px;
     margin: 0 auto;
     margin-top: 5.5rem;
-    /* border: 2px solid hotpink; */
 }
 
 .team-info {
@@ -463,21 +426,17 @@ input {
 }
 
 .team-info h2 {
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
-    line-height: 120%;
-    letter-spacing: 0%;
 }
 
 .team-info p {
-    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.3px;
 }
 
 .trainer-card img {
@@ -505,6 +464,7 @@ input {
     position: absolute;
     left: 24px;
     top: 157px;
+    font-family: Inter;
     font-weight: 600;
     font-size: 16px;
     color: rgb(255, 255, 255);
@@ -538,37 +498,30 @@ input {
     font-size: 70px;
     font-weight: 800;
     text-align: left;
-    /* margin-bottom: 30px; */
 }
 
 .footer-info p {
-    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.3px;
     text-align: left;
 }
 
 .footer-list h4 {
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 32px;
     font-weight: 700;
-    line-height: 120%;
-    letter-spacing: 0%;
     text-align: left;
     margin-bottom: 1.50rem;
 }
 
 .footer-list li {
-    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
-    line-height: 120%;
-    letter-spacing: 0%;
     text-align: left;
     list-style-type: none;
     margin-bottom: .5rem;
@@ -576,21 +529,18 @@ input {
 
 hr {
     width: 1250px;
-    /* border: 2px solid rgba(255, 255, 255, 0.1); */
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 #copyright {
     text-align: center;
-    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.3px;
     margin: 1.5rem;
 
 }
-
 
 /* responsive section start here  */
 
@@ -599,7 +549,7 @@ hr {
 
     /* nav bar responsive */
     .nav-container {
-        width: 70%;
+        width: 80%;
     }
 
     .nav-title {
@@ -608,6 +558,7 @@ hr {
 
     .ham-burger {
         display: block;
+        color: white;
     }
 
     .nav-menu {
@@ -618,9 +569,12 @@ hr {
     .banner-container {
         width: 80%;
         grid-template-columns: 1fr;
-        padding: 16px;
+        padding: 5px;
+        margin: auto;
     }
-
+    .banner-info{
+        margin: auto;
+    }
     .banner-info h1 {
         /* color: rgb(255, 255, 255); */
         font-family: Inter;
@@ -640,7 +594,8 @@ hr {
     }
 
     .banner-image {
-        height: 50%;
+        height: 100%;
+        margin-top: 0px;
     }
 
     .backdrop-1,
@@ -649,36 +604,68 @@ hr {
     }
 
     /* habit section responsive  */
+    .habit-container{
+        width: 80%;
+    }
     .habit-title h2 {
-        width: 40%;
-
+        width: 70%;
         font-size: 20px;
     }
 
     .habit-title p {
-        width: 35%;
-        font-size: 14px;
+        width: 70%;
+       padding: 0;
     }
 
     .habit-image-container {
         grid-template-columns: 1fr;
-        width: 40%;
-
     }
-
-    .habit-image p {
-        width: 40%;
-        margin: 0 auto;
+    .habit-image{
+        width: 70%;
+        margin:  0;
     }
 
     /* run section responsive  */
-    .run-container {
-        grid-template-columns: 1fr;
-    }
+   .run-container{
+    display: none;
+    grid-template-columns: 1fr;
+   }
+   .run-info{
+    text-align: center;
+   }
+   .run-info h2,
+   .run-info p{
+    padding: 0 10px;
+   }
+   .run-info .btn{
+    margin-bottom: 20px;
+   }
 
-    .run-image img {
-        width: 50%;
-        height: 50%;
-        border-radius: 18px;
-    }
+   .training-container{
+    display: none;
+   }
+   .calculator-container{
+    display: none;
+   }
+   .chart-container{
+    display: none;
+    grid-template-columns: 1fr;
+   }
+   .bim-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    
+   }
+   .team-container{
+    display: none;
+    grid-template-columns: 1fr;
+   }
+   .footer-container{
+    grid-template-columns: 1fr;
+   }
+   .footer-info{
+    width: 40%;
+   }
 }
